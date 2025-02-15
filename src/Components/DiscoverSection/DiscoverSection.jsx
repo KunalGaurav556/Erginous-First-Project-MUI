@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Card, CardContent, Stack, Typography } from '@mui/material'
-import './discoverSection.css'
+import './DiscoverSection.css'
 import "@mdi/font/css/materialdesignicons.min.css";
 import './DiscoverMedia.css'
 
