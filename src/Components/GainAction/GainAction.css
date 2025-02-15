@@ -1,0 +1,74 @@
+.gainMain{
+    /* border: 2px solid red;  */
+    /* width: 99%; */
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 2rem; */
+}
+
+.gainActionMain{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 6.5rem;
+    width: 80%;
+}
+.gainActionLeft{
+    /* border: 2px solid blue; */
+    /* width: 50%; */
+    text-align: end;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 2.5rem;
+    position: relative;
+    right: 5.7rem;
+}
+.dotGain{
+    /* border: 2px solid red; */
+    width: 18px;
+    background-color: #00e5ff;
+    height: 14px;
+    border-radius: 50px;
+    position: relative;
+    top: 12px;
+    margin-right: 5px;
+    margin-left: 9px;
+}
+.gainActionRight{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    img{
+        height: 330px;
+        width: 420px;
+    }
+}
+.gainActionUpperContent{
+    width: 500px;
+    /* border: 2px solid olive; */
+}
+.gainActionTitlee{
+    /* border: 2px solid red;  */
+    font-weight: bold;
+    background: linear-gradient(148deg, rgb(0, 96, 100) 0%, rgb(0, 229, 255) 100%);
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#roundbg{
+    /* border: 2px solid blue; */
+    position: absolute;
+    height: 300px;
+    filter: blur(40px);
+    top: 9rem;
+    left: 2rem;
+}
+#roundImg{
+    z-index: 1;
+}

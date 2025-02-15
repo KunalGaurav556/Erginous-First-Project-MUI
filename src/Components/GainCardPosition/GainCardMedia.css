@@ -1,0 +1,89 @@
+@media only screen and (max-width:990px){
+    #gainFeatueHeading{
+        /* border: 2px solid red; */
+        font-size: 120px !important;
+        margin-top: 0px;
+        margin: 0px;
+    }
+    .gainFeature{
+      /* border: 2px solid red; */
+      height: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .mainStackGainPosition{
+        /* border: 2px solid green; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        height: auto;
+    }
+  .leftStackGainPosition{
+        display: none !important;
+  }
+  .RightGainPosition{
+    /* border: 2px solid red; */
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .gainActionLowerStack{
+    /* border: 2px solid blue; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #gainYoutube{
+    /* border: 2px solid black; */
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width:695px){
+    #gainFeatueHeading{
+        font-size: 80px !important;
+    }
+}
+
+@media only screen and (max-width:480px){
+    #gainFeatueHeading{
+        font-size: 40px !important;
+        /* border: 2px solid red; */
+        height: auto;
+    }
+    .mainStackGainPosition {
+      /* border: 2px solid blue; */
+      width: 99%;
+      padding-left: 0px !important;
+      padding-top: 0;
+      padding-right: 0;
+  }
+    .RightGainPosition{
+      /* border: 2px solid green; */
+      display: flex;
+      justify-content: center;
+      align-items: center;    
+      text-align: center;
+    }
+    .gainHeadingBorderStack{
+      /* border: 2px solid red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1.7rem;
+    }
+    .gainHeading{
+      font-size: 28px !important;
+      font-weight: 900 !important;
+    }
+    .gainBody{
+      font-size: 16px !important;
+    }
+}
